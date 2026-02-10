@@ -81,7 +81,7 @@ const Layout: React.FC<LayoutProps> = ({ children, activePage, onNavigate }) => 
       {/* Sidebar */}
       <aside className={`w-64 flex-shrink-0 flex flex-col ${theme.bg} text-white shadow-xl transition-colors duration-300`}>
         <div className="p-6 border-b border-white/10">
-          <h1 className="text-2xl font-bold tracking-tight">MediNexus</h1>
+          <h1 className="text-2xl font-bold tracking-tight">SR</h1>
           <p className="text-xs text-white/60 mt-1">{currentBranch?.name}</p>
         </div>
         
@@ -140,7 +140,7 @@ const Layout: React.FC<LayoutProps> = ({ children, activePage, onNavigate }) => 
 
         {/* Dynamic Branch Footer */}
         <footer className="bg-white border-t py-3 px-8 text-center text-xs text-gray-400">
-          <p>{currentBranch?.footerText || `© ${new Date().getFullYear()} MediNexus Hospital System`}</p>
+          <p>{currentBranch?.footerText || `© ${new Date().getFullYear()} SR Hospital System`}</p>
         </footer>
       </main>
     </div>

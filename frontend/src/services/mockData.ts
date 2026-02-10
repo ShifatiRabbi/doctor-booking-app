@@ -32,36 +32,36 @@ export const generateSlots = (start: string, end: string): string[] => {
 export const MOCK_BRANCHES: Branch[] = [
   { 
     id: 'b1', 
-    name: 'MediNexus Central', 
+    name: 'SR Central', 
     location: 'Dhaka, Dhanmondi', 
     colorTheme: 'blue', 
     contact: '+8801700000001',
-    headerTitle: 'MediNexus Central Hospital',
-    footerText: '© 2024 MediNexus Central - Excellence in Care'
+    headerTitle: 'SR Central Hospital',
+    footerText: '© 2024 SR Central - Excellence in Care'
   },
   { 
     id: 'b2', 
-    name: 'MediNexus North', 
+    name: 'SR North', 
     location: 'Dhaka, Uttara', 
     colorTheme: 'emerald', 
     contact: '+8801700000002',
-    headerTitle: 'MediNexus North Care',
-    footerText: '© 2024 MediNexus North - Your Health, Our Priority'
+    headerTitle: 'SR North Care',
+    footerText: '© 2024 SR North - Your Health, Our Priority'
   },
   { 
     id: 'b3', 
-    name: 'MediNexus South', 
+    name: 'SR South', 
     location: 'Chittagong, GEC', 
     colorTheme: 'indigo', 
     contact: '+8801700000003',
-    headerTitle: 'MediNexus Chittagong',
-    footerText: '© 2024 MediNexus South - Serving the Port City'
+    headerTitle: 'SR Chittagong',
+    footerText: '© 2024 SR South - Serving the Port City'
   },
 ];
 
 export const MOCK_USERS: User[] = [
-  { id: 'u1', name: 'Super Admin', email: 'admin@medinexus.com', role: 'admin', branchId: 'all' },
-  { id: 'u2', name: 'Receptionist Sarah', email: 'sarah@medinexus.com', role: 'employee', branchId: 'b1' },
+  { id: 'u1', name: 'Super Admin', email: 'admin@sr.com', role: 'admin', branchId: 'all' },
+  { id: 'u2', name: 'Receptionist Sarah', email: 'sarah@sr.com', role: 'employee', branchId: 'b1' },
 ];
 
 const defaultSchedule: WeeklySchedule = {
@@ -78,7 +78,7 @@ export const MOCK_DOCTORS: Doctor[] = [
   { 
     id: 'd1', 
     name: 'Dr. A. Rahman', 
-    email: 'rahman@medinexus.com', 
+    email: 'rahman@sr.com', 
     role: 'doctor', 
     branchId: 'b1', 
     specialty: 'Cardiology', 
@@ -90,7 +90,7 @@ export const MOCK_DOCTORS: Doctor[] = [
   { 
     id: 'd2', 
     name: 'Dr. S. Khan', 
-    email: 'khan@medinexus.com', 
+    email: 'khan@sr.com', 
     role: 'doctor', 
     branchId: 'b2', 
     specialty: 'Neurology', 
@@ -102,7 +102,7 @@ export const MOCK_DOCTORS: Doctor[] = [
   { 
     id: 'd3', 
     name: 'Dr. F. Ahmed', 
-    email: 'ahmed@medinexus.com', 
+    email: 'ahmed@sr.com', 
     role: 'doctor', 
     branchId: 'b1', 
     specialty: 'General Medicine', 

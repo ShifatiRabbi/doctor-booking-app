@@ -1,11 +1,11 @@
 {
-  "name": "copy-of-medinexus---multi-branch-hospital-system",
+  "name": "sr-hospital-frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

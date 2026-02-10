@@ -268,7 +268,7 @@ const PublicBooking: React.FC = () => {
           <div className="bg-blue-600 text-white p-2 rounded-lg">
             <Activity size={24} />
           </div>
-          <h1 className="text-2xl font-bold text-gray-800 tracking-tight">MediNexus <span className="text-gray-400 font-light text-lg">| Online Booking</span></h1>
+          <h1 className="text-2xl font-bold text-gray-800 tracking-tight">SR <span className="text-gray-400 font-light text-lg">| Online Booking</span></h1>
         </div>
       </header>
 
