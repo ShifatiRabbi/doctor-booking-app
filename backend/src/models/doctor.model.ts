@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 
 const doctorSchema = new mongoose.Schema({
+  id: { type: String, required: true },
   name: { type: String, required: true },
   email: { type: String, required: true, unique: true },
   role: { type: String, default: 'doctor' },

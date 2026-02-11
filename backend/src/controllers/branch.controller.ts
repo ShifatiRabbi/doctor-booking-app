@@ -33,7 +33,9 @@ export const updateBranch = async (req: Request, res: Response) => {
 
 export const seedBranches = async () => {
   const branches = [
-    { id: 'b1', name: 'SR Central', location: 'Dhaka, Dhanmondi', colorTheme: 'blue', contact: '+8801700000001', headerTitle: 'SR Central Hospital', footerText: '© 2024 SR Central - Excellence in Care' },
+    { id: 'b1', name: 'SR Central D', location: 'Dhaka, Dhanmondi', colorTheme: 'blue', contact: '+8801700000001', headerTitle: 'SR Central Hospital D', footerText: '© 2024 SR Central - Excellence in Care' },
+    { id: 'b2', name: 'SR Central M', location: 'Dhaka, Mirpur', colorTheme: 'purple', contact: '+8801700000002', headerTitle: 'SR Central Hospital M', footerText: '© 2024 SR Central - Excellence in Care' },
+    { id: 'b3', name: 'SR Central U', location: 'Dhaka, Uttara', colorTheme: 'yellow', contact: '+8801700000003', headerTitle: 'SR Central Hospital U', footerText: '© 2024 SR Central - Excellence in Care' },
     // Add others...
   ];
   await Branch.insertMany(branches);
