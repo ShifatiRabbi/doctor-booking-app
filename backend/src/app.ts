@@ -39,7 +39,7 @@ const seedAll = async () => {
   // await seedBranches();
   // await seedDoctors();
   // await seedPatients();
-  await seedAppointments();
+  // await seedAppointments();
   // await seedPrescriptions();
 };
 seedAll();
